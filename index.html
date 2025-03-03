@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>🌍 Travel Explorer</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="discover_packages.html">Discover Packages</a></li>
+                <li><a href="#">Live Map</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <button id="dark-mode-toggle">🌙</button>
+
+    <section class="hero">
+        <h2>Explore the World in Style</h2>
+        <p>Your dream destinations await. Book now & start your journey!</p>
+        <a href="discover_packages.html" class="btn">Discover Packages</a>
+    </section>
+
+    <section>
+        <h2>📍 Live Destination Map</h2>
+        <div id="map-container"></div>
+    </section>
+
+    <section>
+        <h2>📞 Get in Touch</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Travel Explorer | Designed for Travelers ✈️</p>
+    </footer>
+</body>
+</html>
